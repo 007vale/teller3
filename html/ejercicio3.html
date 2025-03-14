@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio #3</title>
+</head>
+<body>
+    <h1>Formulario de registro completo </h1>
+
+    <label for="nombre"> Nombre Completo (Obligatorio):</label>
+    <input type="text" id="nombre"> <br><br>
+
+    <label for="">Correo Electrónico:</label>
+    <input type="email" id="email"  name= "email" placeholder="ejemplo@correo.com"> <br><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad"> <br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono"> <br><br>
+
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" id="contraseña"> <br><br>
+
+    <label for="pagina">Página Web Personal:</label>
+    <input type="pagina" id="pagina" placeholder="https://tusitio.com"> <br><br>
+
+    <label for="fecha">Fecha de Nacimiento:</label>
+    <input type="date" id="fecha"> <br><br>
+
+    <label for="fecha y hora">Fecha y Hora:</label>
+    <input type="datetime-local" id="fecha y hora"> <br><br>
+
+    <label for="mes de Nacimiento">Mes de Nacimiento</label>
+    <input type="month" id="mes de Nacimiento"> <br><br>
+
+    <label for="semana">Semana Favorita del Año:</label>
+    <input type="week" id="semana"> <br><br>
+
+    <label for="nivel">Nivel de Satisfacción(1-10):</label>
+    <input type="range" id="nivel"> <br><br>
+
+    <label for="color">Color Favorito:</label>
+    <input type="color" id="color"> <br><br>
+
+    <label for="buscar">Buscar:</label>
+    <input type="search" id="buscar" placeholder="Bucar...."> <br><br>
+
+    <label for="subir">Sube un  archivo:</label>
+    <input type="file" id="subir"><br><br>
+
+    <label for="genero">Género:</label>
+    <input type="radio" id="masculino">
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="femenino">
+    <label for="femenino">Femenino</label> <br><br>
+
+    <label>
+        <input type="checkbox" id="aceptar">
+        <label for="aceptar">Acepto los términos y condiciones</label> <br><br>
+    </label>
+
+    <label>Selecciona tu país:</label>
+        <select required>
+            <option value="">-- Selecciona --</option>
+            <option value="Colombia">Colombia</option>
+            <option value="México">México</option>
+            <option value="Argentina">Argentina</option>
+        </select> <br><br>
+        
+    <label for="codigo">Código de Registro(Solo Lectura):</label>
+    <input type="text" id="codigo" readonly placeholder="REG123"> <br><br>
+
+    <label for="comentarios">Comentarios:</label>
+    <textarea id="comentarios" rows="4" cols="50" placeholder="Escribe aquí tu mensaje..."></textarea> <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablcer</button>
+    
+</body>
+</html>
